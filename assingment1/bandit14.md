@@ -25,5 +25,5 @@ This led me to read more about telnet and netcat that help me in this process.
 ## Bash/Python script to automate the process
 ```
 !/usr/bin/bash
-sshpass -p "4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e" ssh bandit14@bandit.labs.overthewire.org -p 2220 " echo "4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e"|nc localhost 3000"
+sshpass -p "4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e" ssh bandit14@bandit.labs.overthewire.org -p 2220 " echo "4wcYUJFw0k0XLShlDzztnTBHiqxU3b3e"|nc localhost 30000"
 ```
